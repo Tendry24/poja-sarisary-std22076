@@ -15,7 +15,6 @@ import lombok.ToString;
 @ToString
 @Table(name = "image_info")
 @Entity
-
 public class ImageInformation {
     @Id
     private String id;
